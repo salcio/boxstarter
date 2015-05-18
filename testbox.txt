@@ -29,6 +29,9 @@ cinstm firefox
 cinstm 7zip
 cinstm adobereader
 cinstm javaruntime
+cinstm notepadplusplus
+cinstm notepad2-mod
+cinstm paint.net
 
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
