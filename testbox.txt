@@ -32,6 +32,7 @@ cinstm javaruntime
 cinstm notepadplusplus
 cinstm notepad2-mod
 cinstm paint.net
+cinstm teamviewer
 
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
