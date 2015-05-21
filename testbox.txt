@@ -32,6 +32,15 @@ cinst notepadplusplus -y
 cinst notepad2-mod -y
 cinst paint.net -y
 cinst teamviewer -y
+cinst webstorm -y
+cinst viber -y
+cinst totalcommander -y
+cinst git -y
+
+cinst IIS-WebServerRole -source windowsfeatures
+cinst IIS-HttpCompressionDynamic -source windowsfeatures
+cinst IIS-ManagementScriptingTools -source windowsfeatures
+cinst IIS-WindowsAuthentication -source windowsfeatures
 
 #vs
 #cinst visualstudio2013ultimate -InstallArguments "/Features:'sql WebTools win8SDK WindowsPhone80'"
@@ -39,8 +48,3 @@ cinst teamviewer -y
 #vs plugins
 #cinst resharper -y
 
-
-cinst IIS-WebServerRole -source windowsfeatures
-cinst IIS-HttpCompressionDynamic -source windowsfeatures
-cinst IIS-ManagementScriptingTools -source windowsfeatures
-cinst IIS-WindowsAuthentication -source windowsfeatures
