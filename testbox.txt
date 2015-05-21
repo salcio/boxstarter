@@ -32,6 +32,10 @@ cinst notepadplusplus -y
 cinst notepad2-mod -y
 cinst paint.net -y
 cinst teamviewer -y
+cinst webstorm -y
+cinst viber -y
+cinst totalcommander -y
+cinst git -y
 
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
