@@ -34,8 +34,11 @@ cinst paint.net -y
 cinst teamviewer -y
 
 #vs
-
 #cinst visualstudio2013ultimate -InstallArguments "/Features:'sql WebTools win8SDK WindowsPhone80'"
+
+#vs plugins
+#cinst resharper -y
+
 
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
