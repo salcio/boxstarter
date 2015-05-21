@@ -16,23 +16,23 @@ if (Test-PendingReboot) { Invoke-Reboot }
 Install-WindowsUpdate -AcceptEula
 if (Test-PendingReboot) { Invoke-Reboot }
  
-cinst fiddler4
-cinst dotpeek
-cinst NugetPackageExplorer
-cinstm linqpad4
+cinst fiddler4 -y
+cinst dotpeek -y
+cinst NugetPackageExplorer -y
+cinst linqpad4 -y
 
 #Browsers
-cinstm googlechrome
-cinstm firefox
+cinst googlechrome -y
+cinst firefox -y
  
 #Other essential tools
-cinstm 7zip
-cinstm adobereader
-cinstm javaruntime
-cinstm notepadplusplus
-cinstm notepad2-mod
-cinstm paint.net
-cinstm teamviewer
+cinst 7zip -y
+cinst adobereader -y
+cinst javaruntime -y
+cinst notepadplusplus -y
+cinst notepad2-mod -y
+cinst paint.net -y
+cinst teamviewer -y
 
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
