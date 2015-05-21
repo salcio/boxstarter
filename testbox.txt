@@ -8,7 +8,6 @@ Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
 Disable-InternetExplorerESC
-Disable-UAC
  
 if (Test-PendingReboot) { Invoke-Reboot }
  
@@ -22,7 +21,7 @@ cinst NugetPackageExplorer -y
 cinst linqpad4 -y
 
 #Browsers
-cinst googlechrome -y
+cinst google-chrome-x64 -y
 cinst firefox -y
  
 #Other essential tools
