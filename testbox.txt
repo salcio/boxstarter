@@ -50,5 +50,5 @@ cinst visualstudio2013ultimateIso -InstallArguments "/Features:'SQL WebTools Win
 Remove-Item $isosFolder -recurse
 
 #vs plugins
-#cinst resharper -y
+cinst resharper -y
 
