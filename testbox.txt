@@ -43,7 +43,7 @@ cinst IIS-ManagementScriptingTools -source windowsfeatures
 cinst IIS-WindowsAuthentication -source windowsfeatures
 
 #vs
-#cinst vs2013.4-ultimate-iso -InstallArguments "/Features:'SQL WebTools Win8SDK WindowsPhone80' /iso:'\\vmware-host\Shared Folders\luki\Documents\Virtual Machines.localized\installers\vs2013.4_ult_enu.iso'" -y -source "\\vmware-host\Shared Folders\luki\Documents\Virtual Machines.localized\installers\ChocolateyRepo;http://chocolatey.org/api/v2/"
+#cinst visualstudio2013ultimateIso -InstallArguments "/Features:'SQL WebTools Win8SDK WindowsPhone80' /iso:'\\vmware-host\Shared Folders\luki\Documents\Virtual Machines.localized\installers\vs2013.4_ult_enu.iso'" -y -source "\\vmware-host\Shared Folders\luki\Documents\Virtual Machines.localized\installers\ChocolateyRepo;http://chocolatey.org/api/v2/"
 #cinst visualstudio2013ultimate -InstallArguments "/Features:'SQL WebTools Win8SDK WindowsPhone80'" -y
 #vs plugins
 #cinst resharper -y
