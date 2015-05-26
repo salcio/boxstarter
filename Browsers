@@ -1,0 +1,2 @@
+cinst google-chrome-x64 -y
+cinst firefox -y
