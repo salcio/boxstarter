@@ -3,7 +3,18 @@ $Boxstarter.RebootOk=$true
 $Boxstarter.NoPassword=$false
 $Boxstarter.AutoLogin=$true
 
-Install-BoxstarterPackage -PackageName UpdatesAndExplorerSetting
+# Allow reboots
+$Boxstarter.RebootOk=$true
+$Boxstarter.NoPassword=$false
+$Boxstarter.AutoLogin=$true
+ 
+if (Test-PendingReboot) { Invoke-Reboot }
+ 
+# Update Windows and reboot if necessary
+Install-WindowsUpdate -AcceptEula
+if (Test-PendingReboot) { Invoke-Reboot }
+
+Install-BoxstarterPackage -PackageName ExplorerSetting
 Install-BoxstarterPackage -PackageName Browsers
 Install-BoxstarterPackage -PackageName Remote
 Install-BoxstarterPackage -PackageName SourceControll

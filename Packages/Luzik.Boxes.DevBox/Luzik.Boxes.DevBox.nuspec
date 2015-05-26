@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Luzik.Boxes.DevBox</id>
+    <version>1.0.0</version>
+    <authors>Lukasz</authors>
+    <owners>Lukasz</owners>
+    <description>Sets development environment </description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

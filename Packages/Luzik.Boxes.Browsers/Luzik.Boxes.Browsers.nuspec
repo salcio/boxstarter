@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Luzik.Boxes.Browsers</id>
+    <version>1.0.0</version>
+    <authors>Lukasz</authors>
+    <owners>Lukasz</owners>
+    <description>Installs main browsers</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

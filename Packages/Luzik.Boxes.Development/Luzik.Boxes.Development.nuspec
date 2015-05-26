@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Luzik.Boxes.Development</id>
+    <version>1.0.0</version>
+    <authors>Lukasz</authors>
+    <owners>Lukasz</owners>
+    <description>Installs useful development tools like fiddler, linqpad etc</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

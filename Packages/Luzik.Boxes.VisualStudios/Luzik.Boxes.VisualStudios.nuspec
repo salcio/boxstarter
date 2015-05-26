@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Luzik.Boxes.VisualStudios</id>
+    <version>1.0.0</version>
+    <authors>Lukasz</authors>
+    <owners>Lukasz</owners>
+    <description>Install visual studios 2013, 2015</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>
