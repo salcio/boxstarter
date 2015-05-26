@@ -4,11 +4,6 @@ try {
     $Boxstarter.RebootOk=$true
     $Boxstarter.NoPassword=$false
     $Boxstarter.AutoLogin=$true
-    
-    # Allow reboots
-    $Boxstarter.RebootOk=$true
-    $Boxstarter.NoPassword=$false
-    $Boxstarter.AutoLogin=$true
      
     if (Test-PendingReboot) { Invoke-Reboot }
      
@@ -16,16 +11,16 @@ try {
     Install-WindowsUpdate -AcceptEula
     if (Test-PendingReboot) { Invoke-Reboot }
     
-    Install-BoxstarterPackage -PackageName ExplorerSetting
-    Install-BoxstarterPackage -PackageName Browsers
-    Install-BoxstarterPackage -PackageName Remote
-    Install-BoxstarterPackage -PackageName SourceControll
-    Install-BoxstarterPackage -PackageName Utils
-    Install-BoxstarterPackage -PackageName WindowsFeatures
-    Install-BoxstarterPackage -PackageName Development
-    Install-BoxstarterPackage -PackageName Communication
-    Install-BoxstarterPackage -PackageName VisualStudios
-    Install-BoxstarterPackage -PackageName OtherIdes
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.ExplorerSetting
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.Browsers
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.Remote
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.SourceControll
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.Utils
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.WindowsFeatures
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.Development
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.Communication
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.VisualStudios
+    Install-BoxstarterPackage -PackageName Luzik.Boxes.OtherIdes
 
 
     Write-ChocolateySuccess 'Luzik.Boxes.DevBox'
